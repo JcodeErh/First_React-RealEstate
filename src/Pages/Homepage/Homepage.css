@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Playfair+Display&display=swap');
+
+
+body{
+    background-image: url('nathan-oakley-4pD1nPrt36Y-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding-top: 10%;
+    padding-bottom: 20rem;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+} 
+
+.homeP-container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    margin-top: -50%;
+    justify-content: center;
+    padding-top: 50%;
+    padding-bottom: 9rem;
+    
+}
+
+.eye-catcher-text{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 76px;
+    color: #292222;
+}
+
+.text-headline{
+    font-family: Playfair Display;
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Playfair Display';
+
+}
+
+.hero-text-homepage{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    line-height: 20px;
+    color: #000000;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: none;
+    width: 400px;
+
+}
+
+.view-properties{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 1rem;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-family: 'Atkinson Hyperlegible';
+}
+
+
+
+@media screen and (max-width:768px) {
+    body {
+        height: 812px;
+        padding-top: 70%;
+
+    }
+    .container{
+       
+       
+        display: block;
+        max-width: 100%;
+    }
+    
+    .eye-catcher-text{
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #BD9B7B;
+        text-align: center;
+        
+        position: relative;
+    }
+    
+    .text-headline{
+        font-family: Playfair Display;
+        font-size: 26px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Playfair Display';
+        text-align: center;
+        position: relative;
+    }
+    
+    .hero-text-homepage{
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+    
+    .view-properties{
+        list-style: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1px;
+        line-height: 20px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #FFFFFF;
+        font-family: 'Atkinson Hyperlegible';
+        text-align: center;
+        position: relative;
+    }
+}

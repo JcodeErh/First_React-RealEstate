@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: black;
+  position: absolute;
+  width: 100%; /* Full width */
+  top: 0;
+  left: -4%;
+  right: 0;
+  z-index: 99;
+  padding: 4px 8px;
+}
+
+nav img {
+  display: flex;
+  height: 3%;
+  width: 3%;
+  padding: 0.7rem;
+}
+
+.nav-links-style {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  font-family: 'Atkinson Hyperlegible';
+}
+
+.new_button {
+  padding: 0.3rem;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: white;
+  color: #8d857f;
+  outline: none;
+  border-radius: 9px;
+  text-decoration: none;
+  font-family: Atkinson Hyperlegible;
+}
+.new_button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);                 
+}
+
+
+/*Small screen design:*/
+
+.nav-small-screen {
+  display: none;
+}
+
+
+
+.nav-small-screen-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 65vh;
+  background: #8d857f;
+  transition: 0.3s ease;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.nav .close {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contact-button{
+  text-align: center;
+}
+
+.nav-small-links {
+  list-style: none;
+}
+.nav-small-links li {
+  margin: 2rem;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Atkinson Hyperlegible';
+  list-style: none;
+}
+
+.nav-small-screen-overlay li:hover {
+color: black;
+cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .nav-links-style {
+    display: none;
+  }
+  
+  .nav-small-screen {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+  }
+}
+
+@media screen and (max-width:768px) {
+  .nav {
+    padding: 1rem;
+  }
+
+}
+
+    
+button:hover {
+    background: white;
+    color: black;
+}
+
+p {
+  margin: 2rem;
+  font-style: none;
+}

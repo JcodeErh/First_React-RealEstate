@@ -1,0 +1,80 @@
+{
+
+    "objects": [
+      {
+        "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
+        "address": "parkuddsgatan 9, Gothenburg",
+        "price": "7533422",
+        "rooms": "6",
+        "bathrooms": "3",
+        "area": "78",
+        "text": [
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+          
+        ]
+      },
+      {
+        "image": "/images/house-isolated-field.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "5843500",
+        "rooms": "1",
+        "bathrooms": "1",
+        "area": "80",
+        "text": [
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      },
+      {
+        "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "2995000",
+        "rooms": "3",
+        "bathrooms": "3",
+        "area": "123",
+        "text": [
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      },
+      {
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "340000",
+        "rooms": "2",
+        "bathrooms": "1",
+        "area": "76",
+        "text": [
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      },
+      {
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "547000",
+        "rooms": "5",
+        "bathrooms": "2",
+        "area": "99",
+        "text": [
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      },
+      {
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "11495000",
+        "rooms": "6",
+        "bathrooms": "4",
+        "area": "206",
+        "text": [
+          "",
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      }
+    ]
+  }
+  

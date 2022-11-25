@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Playfair+Display&display=swap');
+
+
+.boxbox{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20%;
+    margin-top: 0%;
+    font-family: Playfair Display;
+    display: flexbox;
+    flex-direction: column;
+    padding-top: 4%;
+    
+    
+}
+
+.textOverall {
+text-align: center;
+position: relative;
+line-height: 32px;
+margin: auto;
+display: block;
+font-family: Playfair Display;
+display: flexbox;
+
+padding-bottom: 2rem;
+font-size: 16px;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.textSecond{
+text-align: center;
+position: relative;
+margin: auto;
+display: block;
+
+margin-left: 2rem;
+margin-right: 1rem;
+}
+
+.bigHero {
+    text-align: left;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+.NumberThree{
+text-align: left;
+position: relative;
+margin: auto !important;
+display: block;
+font-family: Playfair Display;
+
+
+}
+
+
+.H1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.H2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.H3 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 140%;
+}
